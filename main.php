@@ -27,8 +27,6 @@ foreach ($wormholeIds as $wormhole) {
     }
 }
 
-$newWormholes = ['1234'];
-
 if (count($newWormholes) > 0) {
     $repo->flush();
     $notification = new FCMNotificationClient($config);
