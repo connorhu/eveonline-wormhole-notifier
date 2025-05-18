@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=8.3",
+        "symfony/http-client": "^7.2",
+        "google/apiclient": "^2.18",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\EVEOnlineWormhole\\": "./src"
+        }
+    }
+}

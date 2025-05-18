@@ -1,0 +1,7 @@
+{
+  "firebase": {
+    "project_id": "",
+    "topic": "",
+    "service_account_config_json_path": "%config_dir%/service_account.json"
+  }
+}
