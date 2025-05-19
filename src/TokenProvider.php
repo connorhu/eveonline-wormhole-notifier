@@ -57,7 +57,8 @@ class TokenProvider
 
         $expiresAt = $this->tokenData['created'] + $this->tokenData['expires_in'];
         $expiresAt -= 5;
-        return $expiresAt < time();
+
+        return $expiresAt >= time();
     }
 
     private function refreshAccessToken(): array
